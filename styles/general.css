@@ -1,0 +1,51 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300;1,400&display=swap');
+
+body{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+  button{
+  padding: 6px 15px;
+  border-radius: 8px;
+  border:none;
+  background-color: rgb(227, 225, 217);
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  margin-left: 0px;
+}
+button:hover{
+  background-color: rgb(242, 239, 229);
+}
+.b1,.b2,.b3{
+  margin: 10px;
+}
+p{
+  margin: 0;
+  margin-left: 10px;
+  font-weight: 300;
+  font-family:'Lato' , sans-serif;
+}
+.js-result{
+  font-size: 20px;
+  font-weight: 700;
+}
+.js-flipped{
+  line-height: 19px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.js-Score{
+  line-height: 19px;
+  font-size: 12px;
+}
+.content{
+  
+  background-color: rgb(199, 200, 204);
+  margin-top: 100px;
+  border:none;
+  box-shadow: 3px 3px 8px rgb(199, 200, 204);
+  width: 250px;
+  border-radius: 10px;
+  
+}
